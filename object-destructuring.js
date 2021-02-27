@@ -19,12 +19,12 @@
         'age': 43
     }
 
-    { name  } = user // Uncaught SyntaxError: Unexpected token '='
+    //{ name  } = user // Uncaught SyntaxError: Unexpected token '='
 
     let name;
     { name  } = user; // user // Uncaught SyntaxError: Unexpected token '='
 
-    ({ name  } = user)
+    //({ name  } = user)
     console.log(name); // Alex
 
 }
